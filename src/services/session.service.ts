@@ -1,6 +1,6 @@
 import { randomBytes } from "crypto";
 import { ISessionData } from "../types/session-types";
-import { redis } from "../config/redis";
+import { redis } from "../config/redis.js";
 
 const SESSION_TTL = 24 * 60 * 60; // 24 hours in seconds
 
